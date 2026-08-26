@@ -335,10 +335,10 @@ if(isLoading) return <Loader/>
           <Button className="!bg-[#450C3F] !text-[#fff] !rounded-full" onClick={readWorkOutPlan}>Listen Your Workout Plan</Button>
           {speech && <Button className="!bg-[#450C3F] !text-[#fff] !rounded-full" onClick={stopListen}>Stop Listen</Button>}
         </div>
-        <div className="flex justify-center py-3">
-         <Typography.Text className="!text-[24px]">Hii, {user.name} Your AI Plan is Ready </Typography.Text>
+        <div className="flex justify-center py-3 ">
+         <Typography.Text className="sm:!text-[24px] !text-[20px]">Hii, {user.name} Your AI Plan is Ready </Typography.Text>
         </div>
-        <div className="bg-[#450C3F] px-5 py-10 w-[500px] mx-auto rounded-2xl flex flex-col items-center mb-3">
+        <div className="bg-[#450C3F] px-5 py-10 sm:w-[500px] w-[250px] text-center mx-auto rounded-2xl flex flex-col items-center mb-3">
          <Typography.Text className="!text-[16px] !text-[#fff]">"Every workout counts,</Typography.Text>
          <Typography.Text className="!text-[16px] !text-[#fff]">Consistency unlocks your transformation. 💪🔥"</Typography.Text>
 
