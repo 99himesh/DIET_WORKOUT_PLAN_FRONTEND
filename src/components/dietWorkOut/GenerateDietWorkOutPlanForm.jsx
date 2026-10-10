@@ -61,7 +61,7 @@ if(isLoading) return <Loader/>
               >
                 <Input
                   size="large"
-                  placeholder="Enter your name"
+                  placeholder="Enter your Name"
                 />
               </Form.Item>
 
@@ -81,7 +81,7 @@ if(isLoading) return <Loader/>
                   className="!w-full"
                   min={1}
                   max={100}
-                  placeholder="Enter your age"
+                  placeholder="Enter your Age"
                 />
               </Form.Item>
 
@@ -98,7 +98,7 @@ if(isLoading) return <Loader/>
               >
                 <Input
                   size="large"
-                  placeholder="e.g. 5 feet 8 inch"
+                  placeholder="Please Enter Height in centimeter"
                 />
               </Form.Item>
 
@@ -117,7 +117,7 @@ if(isLoading) return <Loader/>
                   size="large"
                   className="!w-full"
                   min={1}
-                  placeholder="Enter your weight"
+                  placeholder="Enter your weight in KG"
                 />
               </Form.Item>
 
